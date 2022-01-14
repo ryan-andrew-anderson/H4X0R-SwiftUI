@@ -12,7 +12,7 @@ import SwiftUI
 struct Webview: UIViewRepresentable {
     
     let urlString: String?
-        
+    
     func makeUIView(context: Context) -> Webview.UIViewType {
         return WKWebView()
     }
@@ -25,6 +25,5 @@ struct Webview: UIViewRepresentable {
             }
         }
     }
-    
 }
 
